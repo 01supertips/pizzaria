@@ -6,7 +6,7 @@ import { destroyCookie, setCookie, parseCookies } from 'nookies'
 import Router from 'next/router';
 
 import { toast } from 'react-toastify'
-
+ 
 
 type AuthContextData = {
   user: UserProps;
